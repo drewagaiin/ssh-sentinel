@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: ShellCheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Análisis estático
+        run: shellcheck --severity=style ssh-sentinel.sh install.sh
+
+      - name: Servicios de systemd
+        run: |
+          sudo install -m 755 ssh-sentinel.sh /usr/local/bin/ssh-sentinel
+          for u in systemd/*; do systemd-analyze verify "$u"; done
+          # Falla si el servicio deja de estar bien protegido (exposición > 3.0)
+          systemd-analyze security --offline=yes --threshold=30 systemd/ssh-sentinel.service
+
+  test:
+    name: Pruebas en ${{ matrix.image }}
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        image:
+          - kalilinux/kali-rolling
+          - debian:12
+          - ubuntu:24.04
+          - ubuntu:22.04
+    container: ${{ matrix.image }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Instalar dependencias de prueba
+        run: |
+          apt-get update -q
+          DEBIAN_FRONTEND=noninteractive apt-get install -y -q bats jq gzip curl procps
+
+      - name: Pruebas
+        run: bats tests/sentinel.bats
+
+      - name: Informe de ejemplo
+        run: ./ssh-sentinel.sh -f tests/fixtures/ataques-syslog.log --format json -o informe.json || true
+
+      - name: Guardar informe
+        uses: actions/upload-artifact@v5
+        with:
+          name: informe-${{ strategy.job-index }}
+          path: informe.json
+          retention-days: 7

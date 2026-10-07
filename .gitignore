@@ -1,0 +1,5 @@
+# Informes y scripts generados: contienen IPs y usuarios
+informe*
+bloqueos*.sh
+*.json
+telegram.conf

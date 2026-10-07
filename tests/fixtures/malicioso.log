@@ -1,0 +1,3 @@
+Oct  5 03:00:01 srv01 sshd[1]: Failed password for root from 203.0.113.66; ufw allow from any port 22 ssh2
+Oct  5 03:00:02 srv01 sshd[2]: Invalid user $(reboot) from 203.0.113.67 port 1
+Oct  5 03:00:03 srv01 sshd[3]: Failed password for invalid user $(reboot) from 203.0.113.67 port 1 ssh2

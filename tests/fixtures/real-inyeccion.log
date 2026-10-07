@@ -1,0 +1,50 @@
+2026-10-06T14:09:08.247904-05:00 vm sshd[12786]: Server listening on 0.0.0.0 port 2222.
+2026-10-06T14:09:09.590592-05:00 vm sshd[12803]: Invalid user x from 8.8.8.8 port 22 from 127.0.0.1 port 40474
+2026-10-06T14:09:09.596222-05:00 vm sshd[12803]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:09.596262-05:00 vm sshd[12803]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:11.610825-05:00 vm sshd[12803]: Failed password for invalid user x from 8.8.8.8 port 22 from 127.0.0.1 port 40474 ssh2
+2026-10-06T14:09:11.662908-05:00 vm sshd[12803]: Connection closed by invalid user x from 8.8.8.8 port 22 127.0.0.1 port 40474 [preauth]
+2026-10-06T14:09:11.834739-05:00 vm sshd[12807]: Invalid user x from 8.8.8.8 port 22 from 127.0.0.1 port 40484
+2026-10-06T14:09:11.836684-05:00 vm sshd[12807]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:11.836724-05:00 vm sshd[12807]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:14.127213-05:00 vm sshd[12807]: Failed password for invalid user x from 8.8.8.8 port 22 from 127.0.0.1 port 40484 ssh2
+2026-10-06T14:09:15.975093-05:00 vm sshd[12807]: Connection closed by invalid user x from 8.8.8.8 port 22 127.0.0.1 port 40484 [preauth]
+2026-10-06T14:09:16.134623-05:00 vm sshd[12812]: Invalid user admin from 127.0.0.1 port 45274
+2026-10-06T14:09:16.137483-05:00 vm sshd[12812]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:16.137534-05:00 vm sshd[12812]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:18.112238-05:00 vm sshd[12812]: Failed password for invalid user admin from 127.0.0.1 port 45274 ssh2
+2026-10-06T14:09:19.634195-05:00 vm sshd[12812]: Connection closed by invalid user admin 127.0.0.1 port 45274 [preauth]
+2026-10-06T14:09:19.834443-05:00 vm sshd[12816]: Invalid user admin from 127.0.0.1 port 45278
+2026-10-06T14:09:19.836495-05:00 vm sshd[12816]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:19.836532-05:00 vm sshd[12816]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:21.555358-05:00 vm sshd[12816]: Failed password for invalid user admin from 127.0.0.1 port 45278 ssh2
+2026-10-06T14:09:21.585135-05:00 vm sshd[12816]: Connection closed by invalid user admin 127.0.0.1 port 45278 [preauth]
+2026-10-06T14:09:21.790716-05:00 vm sshd[12820]: Invalid user oracle from 127.0.0.1 port 45284
+2026-10-06T14:09:21.793038-05:00 vm sshd[12820]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:21.793076-05:00 vm sshd[12820]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:23.787706-05:00 vm sshd[12820]: Failed password for invalid user oracle from 127.0.0.1 port 45284 ssh2
+2026-10-06T14:09:25.283539-05:00 vm sshd[12820]: Connection closed by invalid user oracle 127.0.0.1 port 45284 [preauth]
+2026-10-06T14:09:25.470662-05:00 vm sshd[12824]: Invalid user oracle from 127.0.0.1 port 52220
+2026-10-06T14:09:25.472761-05:00 vm sshd[12824]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T14:09:25.472850-05:00 vm sshd[12824]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T14:09:27.351926-05:00 vm sshd[12824]: Failed password for invalid user oracle from 127.0.0.1 port 52220 ssh2
+2026-10-06T14:09:28.963580-05:00 vm sshd[12824]: Connection closed by invalid user oracle 127.0.0.1 port 52220 [preauth]
+2026-10-06T14:09:29.157025-05:00 vm sshd[12828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T14:09:31.581765-05:00 vm sshd[12828]: Failed password for root from 127.0.0.1 port 52236 ssh2
+2026-10-06T14:09:33.096758-05:00 vm sshd[12828]: Connection closed by authenticating user root 127.0.0.1 port 52236 [preauth]
+2026-10-06T14:09:33.272490-05:00 vm sshd[12833]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T14:09:35.583003-05:00 vm sshd[12833]: Failed password for root from 127.0.0.1 port 59922 ssh2
+2026-10-06T14:09:37.213008-05:00 vm sshd[12833]: Connection closed by authenticating user root 127.0.0.1 port 59922 [preauth]
+2026-10-06T14:09:37.471400-05:00 vm sshd[12837]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+2026-10-06T14:09:39.329751-05:00 vm sshd[12837]: Failed password for labuser from 127.0.0.1 port 59938 ssh2
+2026-10-06T14:09:40.922415-05:00 vm sshd[12837]: Connection closed by authenticating user labuser 127.0.0.1 port 59938 [preauth]
+2026-10-06T14:09:41.130568-05:00 vm sshd[12841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=labuser
+2026-10-06T14:09:43.205481-05:00 vm sshd[12841]: Failed password for labuser from 127.0.0.1 port 59950 ssh2
+2026-10-06T14:09:44.581741-05:00 vm sshd[12841]: Connection closed by authenticating user labuser 127.0.0.1 port 59950 [preauth]
+2026-10-06T14:09:44.858331-05:00 vm sshd[12845]: Accepted password for labuser from 127.0.0.1 port 45296 ssh2
+2026-10-06T14:09:44.859753-05:00 vm sshd[12845]: pam_unix(sshd:session): session opened for user labuser(uid=30033) by labuser(uid=0)
+2026-10-06T14:09:44.861222-05:00 vm sshd[12845]: pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory
+2026-10-06T14:09:44.884180-05:00 vm sshd[12845]: pam_limits(sshd:session): Could not set limit for 'memlock' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0
+2026-10-06T14:09:44.937213-05:00 vm sshd[12856]: Received disconnect from 127.0.0.1 port 45296:11: disconnected by user
+2026-10-06T14:09:44.937369-05:00 vm sshd[12856]: Disconnected from user labuser 127.0.0.1 port 45296
+2026-10-06T14:09:44.938013-05:00 vm sshd[12845]: pam_unix(sshd:session): session closed for user labuser

@@ -1,0 +1,60 @@
+2026-10-05T03:00:00.123456-05:00 kali sshd-session[4001]: Failed password for root from 203.0.113.10 port 40000 ssh2
+2026-10-05T03:00:00.123456-05:00 kali sshd-session[4002]: Connection closed by authenticating user root 203.0.113.10 port 40000 [preauth]
+2026-10-05T03:00:08.123456-05:00 kali sshd-session[4003]: Failed password for root from 203.0.113.10 port 40001 ssh2
+2026-10-05T03:00:08.123456-05:00 kali sshd-session[4004]: Connection closed by authenticating user root 203.0.113.10 port 40001 [preauth]
+2026-10-05T03:00:16.123456-05:00 kali sshd-session[4005]: Failed password for root from 203.0.113.10 port 40002 ssh2
+2026-10-05T03:00:16.123456-05:00 kali sshd-session[4006]: Connection closed by authenticating user root 203.0.113.10 port 40002 [preauth]
+2026-10-05T03:00:24.123456-05:00 kali sshd-session[4007]: Failed password for root from 203.0.113.10 port 40003 ssh2
+2026-10-05T03:00:24.123456-05:00 kali sshd-session[4008]: Connection closed by authenticating user root 203.0.113.10 port 40003 [preauth]
+2026-10-05T03:00:32.123456-05:00 kali sshd-session[4009]: Failed password for root from 203.0.113.10 port 40004 ssh2
+2026-10-05T03:00:32.123456-05:00 kali sshd-session[4010]: Connection closed by authenticating user root 203.0.113.10 port 40004 [preauth]
+2026-10-05T03:00:40.123456-05:00 kali sshd-session[4011]: Failed password for root from 203.0.113.10 port 40005 ssh2
+2026-10-05T03:00:40.123456-05:00 kali sshd-session[4012]: Connection closed by authenticating user root 203.0.113.10 port 40005 [preauth]
+2026-10-05T03:00:48.123456-05:00 kali sshd-session[4013]: Failed password for root from 203.0.113.10 port 40006 ssh2
+2026-10-05T03:00:48.123456-05:00 kali sshd-session[4014]: Connection closed by authenticating user root 203.0.113.10 port 40006 [preauth]
+2026-10-05T03:00:56.123456-05:00 kali sshd-session[4015]: Failed password for root from 203.0.113.10 port 40007 ssh2
+2026-10-05T03:00:56.123456-05:00 kali sshd-session[4016]: Connection closed by authenticating user root 203.0.113.10 port 40007 [preauth]
+2026-10-05T03:01:04.123456-05:00 kali sshd-session[4017]: Failed password for root from 203.0.113.10 port 40008 ssh2
+2026-10-05T03:01:04.123456-05:00 kali sshd-session[4018]: Connection closed by authenticating user root 203.0.113.10 port 40008 [preauth]
+2026-10-05T03:01:12.123456-05:00 kali sshd-session[4019]: Failed password for root from 203.0.113.10 port 40009 ssh2
+2026-10-05T03:01:12.123456-05:00 kali sshd-session[4020]: Connection closed by authenticating user root 203.0.113.10 port 40009 [preauth]
+2026-10-05T03:01:20.123456-05:00 kali sshd-session[4021]: Failed password for root from 203.0.113.10 port 40010 ssh2
+2026-10-05T03:01:20.123456-05:00 kali sshd-session[4022]: Connection closed by authenticating user root 203.0.113.10 port 40010 [preauth]
+2026-10-05T03:01:28.123456-05:00 kali sshd-session[4023]: Failed password for root from 203.0.113.10 port 40011 ssh2
+2026-10-05T03:01:28.123456-05:00 kali sshd-session[4024]: Connection closed by authenticating user root 203.0.113.10 port 40011 [preauth]
+2026-10-05T03:01:36.123456-05:00 kali sshd-session[4025]: Failed password for root from 203.0.113.10 port 40012 ssh2
+2026-10-05T03:01:36.123456-05:00 kali sshd-session[4026]: Connection closed by authenticating user root 203.0.113.10 port 40012 [preauth]
+2026-10-05T03:01:44.123456-05:00 kali sshd-session[4027]: Failed password for root from 203.0.113.10 port 40013 ssh2
+2026-10-05T03:01:44.123456-05:00 kali sshd-session[4028]: Connection closed by authenticating user root 203.0.113.10 port 40013 [preauth]
+2026-10-05T03:01:52.123456-05:00 kali sshd-session[4029]: Failed password for root from 203.0.113.10 port 40014 ssh2
+2026-10-05T03:01:52.123456-05:00 kali sshd-session[4030]: Connection closed by authenticating user root 203.0.113.10 port 40014 [preauth]
+2026-10-05T03:30:00.123456-05:00 kali sshd-session[4031]: Invalid user admin from 198.51.100.7 port 50000
+2026-10-05T03:30:00.123456-05:00 kali sshd-session[4032]: Failed password for invalid user admin from 198.51.100.7 port 50000 ssh2
+2026-10-05T03:30:00.123456-05:00 kali sshd-session[4033]: Connection closed by invalid user admin 198.51.100.7 port 50000 [preauth]
+2026-10-05T03:35:00.123456-05:00 kali sshd-session[4034]: Invalid user oracle from 198.51.100.7 port 50001
+2026-10-05T03:35:00.123456-05:00 kali sshd-session[4035]: Failed password for invalid user oracle from 198.51.100.7 port 50001 ssh2
+2026-10-05T03:35:00.123456-05:00 kali sshd-session[4036]: Connection closed by invalid user oracle 198.51.100.7 port 50001 [preauth]
+2026-10-05T03:40:00.123456-05:00 kali sshd-session[4037]: Invalid user test from 198.51.100.7 port 50002
+2026-10-05T03:40:00.123456-05:00 kali sshd-session[4038]: Failed password for invalid user test from 198.51.100.7 port 50002 ssh2
+2026-10-05T03:40:00.123456-05:00 kali sshd-session[4039]: Connection closed by invalid user test 198.51.100.7 port 50002 [preauth]
+2026-10-05T03:45:00.123456-05:00 kali sshd-session[4040]: Invalid user ubuntu from 198.51.100.7 port 50003
+2026-10-05T03:45:00.123456-05:00 kali sshd-session[4041]: Failed password for invalid user ubuntu from 198.51.100.7 port 50003 ssh2
+2026-10-05T03:45:00.123456-05:00 kali sshd-session[4042]: Connection closed by invalid user ubuntu 198.51.100.7 port 50003 [preauth]
+2026-10-05T03:50:00.123456-05:00 kali sshd-session[4043]: Invalid user postgres from 198.51.100.7 port 50004
+2026-10-05T03:50:00.123456-05:00 kali sshd-session[4044]: Failed password for invalid user postgres from 198.51.100.7 port 50004 ssh2
+2026-10-05T03:50:00.123456-05:00 kali sshd-session[4045]: Connection closed by invalid user postgres 198.51.100.7 port 50004 [preauth]
+2026-10-05T03:55:00.123456-05:00 kali sshd-session[4046]: Invalid user git from 198.51.100.7 port 50005
+2026-10-05T03:55:00.123456-05:00 kali sshd-session[4047]: Failed password for invalid user git from 198.51.100.7 port 50005 ssh2
+2026-10-05T03:55:00.123456-05:00 kali sshd-session[4048]: Connection closed by invalid user git 198.51.100.7 port 50005 [preauth]
+2026-10-05T05:00:00.123456-05:00 kali sshd-session[4049]: Failed password for deploy from 192.0.2.50 port 60000 ssh2
+2026-10-05T05:00:20.123456-05:00 kali sshd-session[4050]: Failed password for deploy from 192.0.2.50 port 60001 ssh2
+2026-10-05T05:00:40.123456-05:00 kali sshd-session[4051]: Failed password for deploy from 192.0.2.50 port 60002 ssh2
+2026-10-05T05:01:00.123456-05:00 kali sshd-session[4052]: Failed password for deploy from 192.0.2.50 port 60003 ssh2
+2026-10-05T05:01:20.123456-05:00 kali sshd-session[4053]: Failed password for deploy from 192.0.2.50 port 60004 ssh2
+2026-10-05T05:01:40.123456-05:00 kali sshd-session[4054]: Failed password for deploy from 192.0.2.50 port 60005 ssh2
+2026-10-05T05:02:00.123456-05:00 kali sshd-session[4055]: Failed password for deploy from 192.0.2.50 port 60006 ssh2
+2026-10-05T05:05:00.123456-05:00 kali sshd-session[4056]: Accepted password for deploy from 192.0.2.50 port 60100 ssh2
+2026-10-05T06:00:00.123456-05:00 kali sshd-session[4057]: Accepted publickey for kali from 10.0.0.5 port 51515 ssh2: ED25519 SHA256:abcdef
+2026-10-05T07:00:00.123456-05:00 kali sshd-session[4058]: Invalid user  from 203.0.113.99 port 33333
+2026-10-05T07:00:01.123456-05:00 kali sshd-session[4059]: Failed publickey for kali from 10.0.0.5 port 51516 ssh2: ED25519 SHA256:xyz
+2026-10-05T07:00:02.123456-05:00 kali cron[999]: Failed password for root from 6.6.6.6 port 1 ssh2

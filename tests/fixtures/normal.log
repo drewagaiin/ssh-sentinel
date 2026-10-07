@@ -1,0 +1,6 @@
+Oct  5 09:00:00 srv01 sshd[7000]: Accepted publickey for andres from 10.0.0.2 port 52000 ssh2: ED25519 SHA256:k0
+Oct  5 10:00:00 srv01 sshd[7001]: Accepted publickey for andres from 10.0.0.3 port 52001 ssh2: ED25519 SHA256:k1
+Oct  5 11:00:00 srv01 sshd[7002]: Accepted publickey for andres from 10.0.0.4 port 52002 ssh2: ED25519 SHA256:k2
+Oct  5 12:00:00 srv01 sshd[7003]: Accepted publickey for andres from 10.0.0.5 port 52003 ssh2: ED25519 SHA256:k3
+Oct  5 13:00:00 srv01 sshd[7004]: Accepted publickey for andres from 10.0.0.6 port 52004 ssh2: ED25519 SHA256:k4
+Oct  5 15:00:00 srv01 sshd[7100]: Failed password for andres from 10.0.0.2 port 52100 ssh2

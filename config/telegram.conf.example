@@ -1,0 +1,6 @@
+# Telegram para ssh-sentinel  ->  /etc/ssh-sentinel/telegram.conf
+# Contiene un secreto: sudo chmod 600 /etc/ssh-sentinel/telegram.conf
+# El token se lo da @BotFather; el chat_id sale en
+# https://api.telegram.org/bot<TOKEN>/getUpdates después de escribirle a tu bot.
+TOKEN=123456789:REEMPLAZA-CON-TU-TOKEN
+CHAT_ID=987654321

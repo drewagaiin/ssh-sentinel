@@ -1,0 +1,31 @@
+# Configuración de ssh-sentinel  ->  /etc/ssh-sentinel/ssh-sentinel.conf
+# Formato: CLAVE=valor. Las opciones de la línea de comandos tienen prioridad.
+# Debe pertenecer a root y no poder ser modificado por otros (chmod 644):
+# quien pueda editarlo podría ocultar ataques con IGNORE.
+
+# --- Detección ---
+# Fuerza bruta: THRESHOLD fallos de una IP dentro de WINDOW minutos
+THRESHOLD=10
+WINDOW=10
+# Password spraying: usuarios distintos probados desde una IP
+SPRAY=5
+# Fallos previos que hacen sospechoso un acceso exitoso
+AFTER_FAIL=5
+# Ataque distribuido: IPs distintas contra un mismo usuario
+DISTRIBUTED=20
+
+# IPs de confianza que nunca generan alertas (tu VPN, tu oficina, el monitoreo).
+# CIDR IPv4, IP exacta o prefijo, separados por comas. Ej.: 10.8.0.0/24,203.0.113.5
+#IGNORE=
+
+# --- Avisos ---
+# Severidad mínima para avisar por Telegram y devolver código 1: low|medium|high|critical
+FAIL_ON=high
+# Telegram (configura antes /etc/ssh-sentinel/telegram.conf)
+TELEGRAM=no
+# Máximo de mensajes por minuto en vivo (las alertas críticas se envían siempre)
+TELEGRAM_RATE=10
+
+# --- Prevención ---
+# Firewall para los comandos sugeridos: ufw o firewalld (vacío = detectar)
+#FIREWALL=ufw

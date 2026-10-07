@@ -1,0 +1,14 @@
+# Lanza el informe diario de ssh-sentinel cada mañana.
+# Cambiar la hora: sudo systemctl edit ssh-sentinel-report.timer
+
+[Unit]
+Description=ssh-sentinel - informe diario
+
+[Timer]
+OnCalendar=*-*-* 07:00:00
+RandomizedDelaySec=10min
+# Si el equipo estaba apagado a esa hora, se lanza al encenderlo
+Persistent=true
+
+[Install]
+WantedBy=timers.target

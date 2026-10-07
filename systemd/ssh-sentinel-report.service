@@ -1,0 +1,48 @@
+# Informe diario de ssh-sentinel (lo lanza ssh-sentinel-report.timer).
+# Texto en: journalctl -u ssh-sentinel-report
+# JSON en:  /var/lib/ssh-sentinel/informe.json (para un SIEM o para archivar)
+
+[Unit]
+Description=ssh-sentinel - informe diario de ataques contra SSH
+Documentation=https://github.com/drewagaiin/ssh-sentinel
+After=systemd-journald.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Código 1 = "hay alertas": es un resultado normal, no un fallo del servicio
+SuccessExitStatus=1
+ExecStart=/usr/local/bin/ssh-sentinel --since "24 hours ago" --format json -o /var/lib/ssh-sentinel/informe.json --no-telegram
+ExecStart=/usr/local/bin/ssh-sentinel --since "24 hours ago" --no-color
+StateDirectory=ssh-sentinel
+StateDirectoryMode=0700
+
+CapabilityBoundingSet=
+AmbientCapabilities=
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged
+SystemCallErrorNumber=EPERM
+ProtectProc=invisible
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+# Para leer /var/log/auth.log en Ubuntu (dueño syslog, grupo adm)
+SupplementaryGroups=adm
+UMask=0077
+MemoryMax=1G
+Nice=10

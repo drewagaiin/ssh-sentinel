@@ -1,0 +1,56 @@
+# ssh-sentinel en vivo: vigila SSH las 24 horas y avisa al instante.
+# Instalar con install.sh. Opciones en /etc/ssh-sentinel/ssh-sentinel.conf
+# Ver alertas:  journalctl -u ssh-sentinel -f
+
+[Unit]
+Description=ssh-sentinel - deteccion de ataques contra SSH en tiempo real
+Documentation=https://github.com/drewagaiin/ssh-sentinel
+After=systemd-journald.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ssh-sentinel --follow --no-color
+# Si el journal se corta, el programa termina con error y se vuelve a lanzar
+Restart=always
+RestartSec=10
+
+# --- Endurecimiento -----------------------------------------------------------
+# Se ejecuta como root SOLO para leer el journal y la configuración de root,
+# pero sin ninguna capacidad especial: no puede cambiar el firewall, ni
+# escribir en el sistema, ni ver /home. Aunque alguien lograra engañarlo con
+# un registro manipulado, no podría hacer daño.
+CapabilityBoundingSet=
+AmbientCapabilities=
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged
+SystemCallErrorNumber=EPERM
+ProtectProc=invisible
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+# Para leer /var/log/auth.log en Ubuntu (dueño syslog, grupo adm)
+SupplementaryGroups=adm
+UMask=0077
+# Límites: aunque llegue una avalancha de ataques, no afecta al servidor
+MemoryMax=1G
+TasksMax=64
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

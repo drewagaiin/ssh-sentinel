@@ -1,0 +1,61 @@
+Oct  5 03:00:00 srv01 sshd[4001]: Failed password for root from 203.0.113.10 port 40000 ssh2
+Oct  5 03:00:00 srv01 sshd[4002]: Connection closed by authenticating user root 203.0.113.10 port 40000 [preauth]
+Oct  5 03:00:08 srv01 sshd[4003]: Failed password for root from 203.0.113.10 port 40001 ssh2
+Oct  5 03:00:08 srv01 sshd[4004]: Connection closed by authenticating user root 203.0.113.10 port 40001 [preauth]
+Oct  5 03:00:16 srv01 sshd[4005]: Failed password for root from 203.0.113.10 port 40002 ssh2
+Oct  5 03:00:16 srv01 sshd[4006]: Connection closed by authenticating user root 203.0.113.10 port 40002 [preauth]
+Oct  5 03:00:24 srv01 sshd[4007]: Failed password for root from 203.0.113.10 port 40003 ssh2
+Oct  5 03:00:24 srv01 sshd[4008]: Connection closed by authenticating user root 203.0.113.10 port 40003 [preauth]
+Oct  5 03:00:32 srv01 sshd[4009]: Failed password for root from 203.0.113.10 port 40004 ssh2
+Oct  5 03:00:32 srv01 sshd[4010]: Connection closed by authenticating user root 203.0.113.10 port 40004 [preauth]
+Oct  5 03:00:40 srv01 sshd[4011]: Failed password for root from 203.0.113.10 port 40005 ssh2
+Oct  5 03:00:40 srv01 sshd[4012]: Connection closed by authenticating user root 203.0.113.10 port 40005 [preauth]
+Oct  5 03:00:48 srv01 sshd[4013]: Failed password for root from 203.0.113.10 port 40006 ssh2
+Oct  5 03:00:48 srv01 sshd[4014]: Connection closed by authenticating user root 203.0.113.10 port 40006 [preauth]
+Oct  5 03:00:56 srv01 sshd[4015]: Failed password for root from 203.0.113.10 port 40007 ssh2
+Oct  5 03:00:56 srv01 sshd[4016]: Connection closed by authenticating user root 203.0.113.10 port 40007 [preauth]
+Oct  5 03:01:04 srv01 sshd[4017]: Failed password for root from 203.0.113.10 port 40008 ssh2
+Oct  5 03:01:04 srv01 sshd[4018]: Connection closed by authenticating user root 203.0.113.10 port 40008 [preauth]
+Oct  5 03:01:12 srv01 sshd[4019]: Failed password for root from 203.0.113.10 port 40009 ssh2
+Oct  5 03:01:12 srv01 sshd[4020]: Connection closed by authenticating user root 203.0.113.10 port 40009 [preauth]
+Oct  5 03:01:20 srv01 sshd[4021]: Failed password for root from 203.0.113.10 port 40010 ssh2
+Oct  5 03:01:20 srv01 sshd[4022]: Connection closed by authenticating user root 203.0.113.10 port 40010 [preauth]
+Oct  5 03:01:28 srv01 sshd[4023]: Failed password for root from 203.0.113.10 port 40011 ssh2
+Oct  5 03:01:28 srv01 sshd[4024]: Connection closed by authenticating user root 203.0.113.10 port 40011 [preauth]
+Oct  5 03:01:36 srv01 sshd[4025]: Failed password for root from 203.0.113.10 port 40012 ssh2
+Oct  5 03:01:36 srv01 sshd[4026]: Connection closed by authenticating user root 203.0.113.10 port 40012 [preauth]
+Oct  5 03:01:44 srv01 sshd[4027]: Failed password for root from 203.0.113.10 port 40013 ssh2
+Oct  5 03:01:44 srv01 sshd[4028]: Connection closed by authenticating user root 203.0.113.10 port 40013 [preauth]
+Oct  5 03:01:52 srv01 sshd[4029]: Failed password for root from 203.0.113.10 port 40014 ssh2
+Oct  5 03:01:52 srv01 sshd[4030]: Connection closed by authenticating user root 203.0.113.10 port 40014 [preauth]
+Oct  5 03:30:00 srv01 sshd[4031]: Invalid user admin from 198.51.100.7 port 50000
+Oct  5 03:30:00 srv01 sshd[4032]: Failed password for invalid user admin from 198.51.100.7 port 50000 ssh2
+Oct  5 03:30:00 srv01 sshd[4033]: Connection closed by invalid user admin 198.51.100.7 port 50000 [preauth]
+Oct  5 03:35:00 srv01 sshd[4034]: Invalid user oracle from 198.51.100.7 port 50001
+Oct  5 03:35:00 srv01 sshd[4035]: Failed password for invalid user oracle from 198.51.100.7 port 50001 ssh2
+Oct  5 03:35:00 srv01 sshd[4036]: Connection closed by invalid user oracle 198.51.100.7 port 50001 [preauth]
+Oct  5 03:40:00 srv01 sshd[4037]: Invalid user test from 198.51.100.7 port 50002
+Oct  5 03:40:00 srv01 sshd[4038]: Failed password for invalid user test from 198.51.100.7 port 50002 ssh2
+Oct  5 03:40:00 srv01 sshd[4039]: Connection closed by invalid user test 198.51.100.7 port 50002 [preauth]
+Oct  5 03:45:00 srv01 sshd[4040]: Invalid user ubuntu from 198.51.100.7 port 50003
+Oct  5 03:45:00 srv01 sshd[4041]: Failed password for invalid user ubuntu from 198.51.100.7 port 50003 ssh2
+Oct  5 03:45:00 srv01 sshd[4042]: Connection closed by invalid user ubuntu 198.51.100.7 port 50003 [preauth]
+Oct  5 03:50:00 srv01 sshd[4043]: Invalid user postgres from 198.51.100.7 port 50004
+Oct  5 03:50:00 srv01 sshd[4044]: Failed password for invalid user postgres from 198.51.100.7 port 50004 ssh2
+Oct  5 03:50:00 srv01 sshd[4045]: Connection closed by invalid user postgres 198.51.100.7 port 50004 [preauth]
+Oct  5 03:55:00 srv01 sshd[4046]: Invalid user git from 198.51.100.7 port 50005
+Oct  5 03:55:00 srv01 sshd[4047]: Failed password for invalid user git from 198.51.100.7 port 50005 ssh2
+Oct  5 03:55:00 srv01 sshd[4048]: Connection closed by invalid user git 198.51.100.7 port 50005 [preauth]
+Oct  5 05:00:00 srv01 sshd[4049]: Failed password for deploy from 192.0.2.50 port 60000 ssh2
+Oct  5 05:00:20 srv01 sshd[4050]: Failed password for deploy from 192.0.2.50 port 60001 ssh2
+Oct  5 05:00:40 srv01 sshd[4051]: Failed password for deploy from 192.0.2.50 port 60002 ssh2
+Oct  5 05:01:00 srv01 sshd[4052]: Failed password for deploy from 192.0.2.50 port 60003 ssh2
+Oct  5 05:01:20 srv01 sshd[4053]: Failed password for deploy from 192.0.2.50 port 60004 ssh2
+Oct  5 05:01:40 srv01 sshd[4054]: Failed password for deploy from 192.0.2.50 port 60005 ssh2
+Oct  5 05:02:00 srv01 sshd[4055]: Failed password for deploy from 192.0.2.50 port 60006 ssh2
+Oct  5 05:05:00 srv01 sshd[4056]: Accepted password for deploy from 192.0.2.50 port 60100 ssh2
+Oct  5 06:00:00 srv01 sshd[4057]: Accepted publickey for kali from 10.0.0.5 port 51515 ssh2: ED25519 SHA256:abcdef
+Oct  5 07:00:00 srv01 sshd[4058]: Invalid user  from 203.0.113.99 port 33333
+Oct  5 07:00:01 srv01 sshd[4059]: Failed publickey for kali from 10.0.0.5 port 51516 ssh2: ED25519 SHA256:xyz
+Oct  5 07:00:02 srv01 cron[999]: Failed password for root from 6.6.6.6 port 1 ssh2
+Oct  5 03:02:01 srv01 sshd[5001]: message repeated 4 times: [ Failed password for root from 203.0.113.10 port 41000 ssh2]

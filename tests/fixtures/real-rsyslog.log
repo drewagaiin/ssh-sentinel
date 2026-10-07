@@ -1,0 +1,90 @@
+2026-10-06T12:55:14.721791-05:00 lab sshd[1143]: Server listening on 0.0.0.0 port 2222.
+2026-10-06T12:55:15.863633-05:00 lab sshd[1148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:17.833681-05:00 lab sshd[1148]: Failed password for root from 127.0.0.1 port 37898 ssh2
+2026-10-06T12:55:19.803395-05:00 lab sshd[1148]: Connection closed by authenticating user root 127.0.0.1 port 37898 [preauth]
+2026-10-06T12:55:19.935541-05:00 lab sshd[1152]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:22.121409-05:00 lab sshd[1152]: Failed password for root from 127.0.0.1 port 37910 ssh2
+2026-10-06T12:55:23.875250-05:00 lab sshd[1152]: Connection closed by authenticating user root 127.0.0.1 port 37910 [preauth]
+2026-10-06T12:55:24.019608-05:00 lab sshd[1156]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:26.225457-05:00 lab sshd[1156]: Failed password for root from 127.0.0.1 port 50790 ssh2
+2026-10-06T12:55:27.959905-05:00 lab sshd[1156]: Connection closed by authenticating user root 127.0.0.1 port 50790 [preauth]
+2026-10-06T12:55:28.099158-05:00 lab sshd[1160]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:30.520876-05:00 lab sshd[1160]: Failed password for root from 127.0.0.1 port 50806 ssh2
+2026-10-06T12:55:32.037972-05:00 lab sshd[1160]: Connection closed by authenticating user root 127.0.0.1 port 50806 [preauth]
+2026-10-06T12:55:32.184755-05:00 lab sshd[1164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:34.154902-05:00 lab sshd[1164]: Failed password for root from 127.0.0.1 port 50810 ssh2
+2026-10-06T12:55:36.124565-05:00 lab sshd[1164]: Connection closed by authenticating user root 127.0.0.1 port 50810 [preauth]
+2026-10-06T12:55:36.263658-05:00 lab sshd[1168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:38.449513-05:00 lab sshd[1168]: Failed password for root from 127.0.0.1 port 54604 ssh2
+2026-10-06T12:55:40.203181-05:00 lab sshd[1168]: Connection closed by authenticating user root 127.0.0.1 port 54604 [preauth]
+2026-10-06T12:55:40.344005-05:00 lab sshd[1172]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:42.745721-05:00 lab sshd[1172]: Failed password for root from 127.0.0.1 port 54608 ssh2
+2026-10-06T12:55:44.283821-05:00 lab sshd[1172]: Connection closed by authenticating user root 127.0.0.1 port 54608 [preauth]
+2026-10-06T12:55:44.407909-05:00 lab sshd[1176]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:46.358293-05:00 lab sshd[1176]: Failed password for root from 127.0.0.1 port 44704 ssh2
+2026-10-06T12:55:46.377979-05:00 lab sshd[1176]: Connection closed by authenticating user root 127.0.0.1 port 44704 [preauth]
+2026-10-06T12:55:46.519071-05:00 lab sshd[1180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:48.744987-05:00 lab sshd[1180]: Failed password for root from 127.0.0.1 port 44716 ssh2
+2026-10-06T12:55:50.457880-05:00 lab sshd[1180]: Connection closed by authenticating user root 127.0.0.1 port 44716 [preauth]
+2026-10-06T12:55:50.604272-05:00 lab sshd[1184]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:52.377035-05:00 lab sshd[1184]: Failed password for root from 127.0.0.1 port 44726 ssh2
+2026-10-06T12:55:52.574795-05:00 lab sshd[1184]: Connection closed by authenticating user root 127.0.0.1 port 44726 [preauth]
+2026-10-06T12:55:52.711708-05:00 lab sshd[1188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:54.761927-05:00 lab sshd[1188]: Failed password for root from 127.0.0.1 port 44742 ssh2
+2026-10-06T12:55:56.651307-05:00 lab sshd[1188]: Connection closed by authenticating user root 127.0.0.1 port 44742 [preauth]
+2026-10-06T12:55:56.791819-05:00 lab sshd[1192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=root
+2026-10-06T12:55:59.056711-05:00 lab sshd[1192]: Failed password for root from 127.0.0.1 port 54488 ssh2
+2026-10-06T12:56:00.731295-05:00 lab sshd[1192]: Connection closed by authenticating user root 127.0.0.1 port 54488 [preauth]
+2026-10-06T12:56:00.869698-05:00 lab sshd[1197]: Invalid user admin from 127.0.0.1 port 54504
+2026-10-06T12:56:00.871621-05:00 lab sshd[1197]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T12:56:00.871650-05:00 lab sshd[1197]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T12:56:03.017596-05:00 lab sshd[1197]: Failed password for invalid user admin from 127.0.0.1 port 54504 ssh2
+2026-10-06T12:56:04.367816-05:00 lab sshd[1197]: Connection closed by invalid user admin 127.0.0.1 port 54504 [preauth]
+2026-10-06T12:56:04.505753-05:00 lab sshd[1201]: Invalid user oracle from 127.0.0.1 port 56556
+2026-10-06T12:56:04.507719-05:00 lab sshd[1201]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T12:56:04.507754-05:00 lab sshd[1201]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T12:56:06.538014-05:00 lab sshd[1201]: Failed password for invalid user oracle from 127.0.0.1 port 56556 ssh2
+2026-10-06T12:56:07.998413-05:00 lab sshd[1201]: Connection closed by invalid user oracle 127.0.0.1 port 56556 [preauth]
+2026-10-06T12:56:08.137775-05:00 lab sshd[1205]: Invalid user test from 127.0.0.1 port 56562
+2026-10-06T12:56:08.139891-05:00 lab sshd[1205]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T12:56:08.139922-05:00 lab sshd[1205]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T12:56:10.385887-05:00 lab sshd[1205]: Failed password for invalid user test from 127.0.0.1 port 56562 ssh2
+2026-10-06T12:56:10.507914-05:00 lab sshd[1205]: Connection closed by invalid user test 127.0.0.1 port 56562 [preauth]
+2026-10-06T12:56:10.649691-05:00 lab sshd[1209]: Invalid user pi from 127.0.0.1 port 56566
+2026-10-06T12:56:10.651967-05:00 lab sshd[1209]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T12:56:10.651994-05:00 lab sshd[1209]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T12:56:12.837884-05:00 lab sshd[1209]: Failed password for invalid user pi from 127.0.0.1 port 56566 ssh2
+2026-10-06T12:56:12.968882-05:00 lab sshd[1209]: Connection closed by invalid user pi 127.0.0.1 port 56566 [preauth]
+2026-10-06T12:56:13.099675-05:00 lab sshd[1213]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=ubuntu
+2026-10-06T12:56:15.029915-05:00 lab sshd[1213]: Failed password for ubuntu from 127.0.0.1 port 56568 ssh2
+2026-10-06T12:56:15.384577-05:00 lab sshd[1213]: Connection closed by authenticating user ubuntu 127.0.0.1 port 56568 [preauth]
+2026-10-06T12:56:15.517638-05:00 lab sshd[1217]: Invalid user ftpuser from 127.0.0.1 port 55614
+2026-10-06T12:56:15.519496-05:00 lab sshd[1217]: pam_unix(sshd:auth): check pass; user unknown
+2026-10-06T12:56:15.519530-05:00 lab sshd[1217]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1 
+2026-10-06T12:56:17.393956-05:00 lab sshd[1217]: Failed password for invalid user ftpuser from 127.0.0.1 port 55614 ssh2
+2026-10-06T12:56:19.032683-05:00 lab sshd[1217]: Connection closed by invalid user ftpuser 127.0.0.1 port 55614 [preauth]
+2026-10-06T12:56:19.210504-05:00 lab sshd[1221]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:20.964941-05:00 lab sshd[1221]: Failed password for testvict from 127.0.0.1 port 55624 ssh2
+2026-10-06T12:56:21.052178-05:00 lab sshd[1221]: Connection closed by authenticating user testvict 127.0.0.1 port 55624 [preauth]
+2026-10-06T12:56:21.220313-05:00 lab sshd[1225]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:23.250690-05:00 lab sshd[1225]: Failed password for testvict from 127.0.0.1 port 55630 ssh2
+2026-10-06T12:56:24.948640-05:00 lab sshd[1225]: Connection closed by authenticating user testvict 127.0.0.1 port 55630 [preauth]
+2026-10-06T12:56:25.183120-05:00 lab sshd[1229]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:26.430338-05:00 lab sshd[1229]: Failed password for testvict from 127.0.0.1 port 36056 ssh2
+2026-10-06T12:56:27.028087-05:00 lab sshd[1229]: Connection closed by authenticating user testvict 127.0.0.1 port 36056 [preauth]
+2026-10-06T12:56:27.201001-05:00 lab sshd[1233]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:29.055583-05:00 lab sshd[1233]: Failed password for testvict from 127.0.0.1 port 36060 ssh2
+2026-10-06T12:56:30.921117-05:00 lab sshd[1233]: Connection closed by authenticating user testvict 127.0.0.1 port 36060 [preauth]
+2026-10-06T12:56:31.084578-05:00 lab sshd[1238]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:33.154890-05:00 lab sshd[1238]: Failed password for testvict from 127.0.0.1 port 36066 ssh2
+2026-10-06T12:56:34.812259-05:00 lab sshd[1238]: Connection closed by authenticating user testvict 127.0.0.1 port 36066 [preauth]
+2026-10-06T12:56:34.989555-05:00 lab sshd[1242]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=testvict
+2026-10-06T12:56:37.471527-05:00 lab sshd[1242]: Failed password for testvict from 127.0.0.1 port 35690 ssh2
+2026-10-06T12:56:38.704921-05:00 lab sshd[1242]: Connection closed by authenticating user testvict 127.0.0.1 port 35690 [preauth]
+2026-10-06T12:56:38.901873-05:00 lab sshd[1246]: Accepted password for testvict from 127.0.0.1 port 35700 ssh2
+2026-10-06T12:56:38.903412-05:00 lab sshd[1246]: pam_unix(sshd:session): session opened for user testvict(uid=30033) by testvict(uid=0)
+2026-10-06T12:56:38.903656-05:00 lab sshd[1246]: pam_systemd(sshd:session): Failed to connect to system bus: No such file or directory
+2026-10-06T12:56:38.916536-05:00 lab sshd[1246]: pam_limits(sshd:session): Could not set limit for 'memlock' to soft=-1, hard=-1: Operation not permitted; uid=0,euid=0
+2026-10-06T12:56:38.963683-05:00 lab sshd[1257]: Received disconnect from 127.0.0.1 port 35700:11: disconnected by user
+2026-10-06T12:56:38.963828-05:00 lab sshd[1257]: Disconnected from user testvict 127.0.0.1 port 35700
+2026-10-06T12:56:38.964552-05:00 lab sshd[1246]: pam_unix(sshd:session): session closed for user testvict
